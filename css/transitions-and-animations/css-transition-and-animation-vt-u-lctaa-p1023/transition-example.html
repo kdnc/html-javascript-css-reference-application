@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+
+        /*
+        transition property short hand usage
+        ------------------------------------
+        transition: transition-property transition-duration transition-timing-function
+        */
+
+        .basics {
+            width: 400px;
+            height: 400px;
+            -webkit-transition: width 2s ease-in, height 4s;
+            -moz-transition: width 2s ease-in, height 4s;
+            -o-transition: width 2s ease-in, height 4s;
+            transition: width 2s ease-in, height 4s;
+            background-color: #34495e;
+        }
+
+        .basics:hover {
+            width: 800px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="basics">
+</div>
+</body>
+</html>
